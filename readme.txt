@@ -16,7 +16,7 @@ In theory the scripts could be used on any mafia game.
 
    $ sqlite3 mafia.db
 
-   >>update authors set isMafia=0 where name not in ('known', 'mafia', names');update authors set isMafia=1 where name in ('known', 'mafia', names');
+   >>update authors set isMafia=0 where name not in ('known', 'mafia', 'names');update authors set isMafia=1 where name in ('known', 'mafia', names');
 
 2) Run "mine.py" - you need the python nltk library and the pyYAML library 
 3) Download and install the orange machine learning program.
@@ -31,3 +31,4 @@ In theory the scripts could be used on any mafia game.
 * Mention graphs
 * Sentiment analysis on words
 * When the game ends I'll add a full and correct "mafia.db" to the repo. Until then you need your own information!
+* Using known mafia's posts to find unknown mafia.
