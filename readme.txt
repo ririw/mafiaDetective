@@ -1,3 +1,6 @@
+= Current status =
+I'm pretty sure this _way_ overfits. 
+
 = What is this =
 This is a set of scripts that I am using to try to infer the alignment of some people in a mafia game. It attempts to use machine learning on their post's text along with supervised learning.
 
@@ -27,3 +30,4 @@ In theory the scripts could be used on any mafia game.
 * Accusation graphs
 * Mention graphs
 * Sentiment analysis on words
+* When the game ends I'll add a full and correct "mafia.db" to the repo. Until then you need your own information!
